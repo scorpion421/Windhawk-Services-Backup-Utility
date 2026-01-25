@@ -197,12 +197,12 @@ class WindhawkManagerApp:
     def select_windhawk_path(self):
         path = filedialog.askdirectory(title="Select Windhawk Installation Directory", initialdir=self.windhawk_path_var.get())
         if path:
-            self.windhawk_path_var.set(path)
+            self.windhawk_path_var.set(os.path.normpath(path))
 
     def select_backup_path(self):
         path = filedialog.askdirectory(title="Select Backup Destination Folder", initialdir=self.backup_path_var.get())
         if path:
-            self.backup_path_var.set(path)
+            self.backup_path_var.set(os.path.normpath(path))
             
     def log(self, message, level="info"):
         """Writes a message to the log widget with appropriate color coding."""
