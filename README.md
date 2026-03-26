@@ -7,7 +7,7 @@ A lightweight Windows desktop tool for backing up and restoring [Windhawk](https
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
 ![Version](https://img.shields.io/badge/Version-2.5.0-green)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+![License](https://img.shields.io/badge/License-GPL-yellow)
 
 <img width="822" height="712" alt="image" src="https://github.com/user-attachments/assets/68776dfd-1299-49fb-85c5-bbb610f67941" />
 
@@ -127,4 +127,4 @@ This script is inspired by the work of https://github.com/lokize - https://githu
 
 ## License
 
-MIT License — see [LICENSE](LICENSE) for details.
+GPL License — see [LICENSE](LICENSE) for details.
