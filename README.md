@@ -45,7 +45,7 @@ A lightweight Windows desktop tool for backing up and restoring [Windhawk](https
 No installation needed. Clone or download the repository and run the script directly:
 
 ```bat
-git clone https://github.com/scorpion421/wsbu.git
+git clone https://github.com/scorpion421/Windhawk-Services-Backup-Utility.git
 cd wsbu
 python wsbu.py
 ```
